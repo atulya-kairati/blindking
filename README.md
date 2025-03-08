@@ -1,5 +1,7 @@
 ## Blind King web page
 
+Read the story [here](https://atulya-kairati.github.io/blindking/).
+
 This is a webpage for a story called The Blind King by Manus Chaubey (Atulya Kairati).
 
 The story is an allegorical exploration of suffering and its cyclical infliction through creation.
