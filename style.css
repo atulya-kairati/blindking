@@ -71,7 +71,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0) url('king.png') no-repeat center center;
+  background: rgba(0, 0, 0, 0) url('king_t.png') no-repeat center center;
   background-size: cover; /* Mobile view */
   filter: brightness(0.32);
   z-index: -1;
