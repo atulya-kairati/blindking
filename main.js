@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
 
 window.addEventListener("DOMContentLoaded", () => {
     const year = (new Date(Date.now())).getFullYear();
-    document.querySelector("footer").innerText = `© ${year} Manus Chaubey. All rights reserved.`
+    document.querySelector("footer").innerText = `Copyright © ${year} Manus Chaubey. All rights reserved.`
 
     const story = document.querySelector("#story");
     wordSpanner(story);
