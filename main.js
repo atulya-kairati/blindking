@@ -76,6 +76,7 @@ function wordSpanner(element) {
         null
     );
 
+    // Have to collect the node because they can't be edited while actively walking the tree
     const nodes = [];
     while (wordWalker.nextNode()) {
         nodes.push(wordWalker.currentNode);
