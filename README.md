@@ -4,7 +4,7 @@ Read the story [here](https://atulya-kairati.github.io/blindking/).
 
 This is a webpage for a story called The Blind King by Manus Chaubey (Atulya Kairati).
 
-The story is an allegorical exploration of suffering and its infliction through any iterative process of creation (Evolution, birth, even art etc).
+The story is an allegorical exploration of... well I'll let you decide.
 
 #### Licensing
 
