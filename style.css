@@ -1,7 +1,7 @@
 body {
   font-family: 'EB Garamond', serif;
   line-height: 1.8;
-  color: #fcfcfc;
+  color: #c6c6c6;
   background-color: #0b0b0b;
   margin: 20px;
   margin-bottom: 0px;
@@ -25,6 +25,7 @@ p {
   max-width:720px;
   margin: 0 auto;
   margin-bottom: 15px;
+  text-shadow: 0 0 10px darkgray;
 }
 
 @media (max-width: 800px) {
@@ -51,7 +52,7 @@ p {
   height: 100%;
   background: black url('blur_gb.jpg') no-repeat center center;
   background-size: cover; /* Mobile view */
-  filter: brightness(0.02);
+  filter: brightness(0);
   z-index: -2;
   overflow: hidden;
 }
@@ -71,7 +72,7 @@ p {
   height: 100%;
   background: rgba(0, 0, 0, 0) url('king_t.png') no-repeat center center;
   background-size: cover; /* Mobile view */
-  filter: brightness(0.32);
+  filter: brightness(0.46);
   z-index: -1;
   overflow: hidden;
 }
