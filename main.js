@@ -42,7 +42,7 @@ function revealPaintingWithScroll() {
     const docHeight = document.body.scrollHeight - window.innerHeight;
     const scrollPercent = scrollTop / docHeight;
 
-    const brightness = 0.02 + scrollPercent * (0.3);
+    const brightness = scrollPercent * 0.36;
 
     document.querySelector("#bg-image").style.filter =
         `brightness(${brightness})`;
@@ -56,7 +56,7 @@ function twinkleTwinkle() {
 
         if (!isInViewport(word)) return;
 
-        const uniqueScrollOffset = baseScroll + index * (28 + 0 * Math.random()); // adjust randomness
+        const uniqueScrollOffset = baseScroll + index * (25 + 5 * Math.random()); // adjust randomness
 
         const brightness = 0.4 + Math.abs(Math.sin(uniqueScrollOffset / 40) * 0.6);
 
