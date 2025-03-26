@@ -28,6 +28,10 @@ p {
   text-shadow: 0 0 10px darkgray;
 }
 
+b {
+  font-size: 1.5em;
+}
+
 @media (max-width: 800px) {
   p {
     max-width: 90%;
